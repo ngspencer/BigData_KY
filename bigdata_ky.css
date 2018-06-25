@@ -1,0 +1,42 @@
+@font-face {
+  font-family: headingFont;
+  src:url(News_Cycle/NewsCycle-Regular.ttf);
+}
+h1 {
+  font-family: headingFont;
+  color: #fff;
+}
+h2 {
+  font-family: headingFont;
+  font-style: italic;
+  color: #fff;
+}
+.headingArea {
+  margin-top: -1.5em;
+  background-image: url(horses.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navigationBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.navigationBar li {
+  float: left;
+}
+.navigationBar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navigationBar li a:hover {
+  background-color: #111;
+}
+.activePage {
+  background-color: #15702f;
+}
