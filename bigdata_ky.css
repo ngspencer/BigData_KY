@@ -4,18 +4,22 @@
 }
 h1 {
   font-family: headingFont;
-  color: #fff;
+  color: #000;
+  padding-left: 1em;
+  font-size: 35pt;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 h2 {
   font-family: headingFont;
   font-style: italic;
-  color: #fff;
+  color: #333;
+  padding-bottom: .75em;
+  padding-left: 4em;
+  margin-top: 0;
 }
 .headingArea {
-  margin-top: -1.5em;
-  background-image: url(horses.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+
 }
 .navigationBar ul {
   list-style-type: none;
@@ -39,4 +43,8 @@ h2 {
 }
 .activePage {
   background-color: #15702f;
+}
+body {
+  background-image: url(roofline.jpg);
+  background-size: cover;
 }
